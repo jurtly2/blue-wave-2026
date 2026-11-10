@@ -1,0 +1,12 @@
+﻿# Never commit credentials, payment links, user records or backend state
+.env
+.env.*
+*secret*
+*token*
+*credential*
+paypal-links*
+state/
+backups/
+*.sqlite*
+*.db
+__pycache__/
